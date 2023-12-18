@@ -57,3 +57,11 @@ function option10() {
     BlarkSon0.src = "sditd.jpg"
     document.getElementById('BlarkSon8');
 }
+
+function changeText(element) {
+    element.textContent = 'Żartuję misiaczku, jak cię przytuliłem to byłem szczęśliwszy niż kiedykolwiek <3';
+  }
+
+  function restoreText(element) {
+    element.textContent = 'Tak samo było na Trollach xd';
+  }
